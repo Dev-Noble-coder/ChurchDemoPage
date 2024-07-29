@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-color: #17153B;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    padding: 8px;
+   
+}
+
+.hamburger{
+    color: white;
+    font-size: 55px;
+    display:none ;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.header nav a{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.icon span i{
+    
+    font-size: 70px;
+    color: white;
+}
+header h1{
+    color: #F9E400;
+    font-family: "Gideon Roman", serif;
+}
+
+.header nav{
+    display: flex;
+    flex-direction:row ;
+    gap: 20px;
+    color: white;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Hero Page*/
+.heroPage{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    
+}
+.heroPage h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-family: "Playwrite BE VLG", cursive;
+}
+.heroPage p{
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+#mainPage{
+    background-image: url('/img/slawek-k-jw4lNf1YHBA-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.heroPage button a{
+    text-decoration: none;
+    color: white;
+   font-size: 17px;
+}
+.heroPage button{
+    background-color: #17153B;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.heroPage p i{
+    text-shadow: none;
+    font-size: 50px;
+}
+
+
+
+
+.abtUs{
+    text-align: center;
+    background-color: #17153B;
+    padding: 100px;
+}
+#abtUs h2{
+    
+    color: white;
+    padding-bottom: 10px;
+    word-break: keep-all;
+    font-size: 35px;
+}
+#abtUs p{
+    color: white;
+    padding-bottom: 10px;
+    word-wrap: wrap;
+}
+#abtUs button a{
+    text-decoration: none;
+    color: white;
+   font-size: 17px;
+}
+#abtUs button{
+    background-color: #17153B;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+#abtUs button:hover{
+    background-color: white;
+    color: #17153B;
+    border: 1px solid #17153B;
+    transition-delay: 0.1s;
+    transition-behavior: smooth;
+}
+#abtUs button:hover a{
+    color: #17153B;
+}
+
+.worship{
+    text-align: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(18, 17, 17, 0.699),
+        rgba(20, 19, 19, 0.73)
+    ),
+  url('./img/rachel-coyne-U7HLzMO4SIY-unsplash.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+    padding: 100px;
+
+}
+#worship h2{
+    
+    color: white;
+    padding-bottom: 10px;
+    word-break: keep-all;
+    font-size: 35px;
+}
+#worship p{
+    color: white;
+    padding-bottom: 10px;
+    word-wrap: wrap;
+}
+#worship button a{
+    text-decoration: none;
+    color: white;
+   font-size: 17px;
+}
+#worship button{
+    background-color: #17153B;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.prayer{
+    text-align: center;
+    background-color: #17153B;
+    padding: 100px;
+}
+#prayer h2{
+   
+    color: white;
+    padding-bottom: 10px;
+    word-break: keep-all;
+    font-size: 35px;
+}
+#prayer p{
+    color: white;
+    padding-bottom: 10px;
+    word-wrap: wrap;
+}
+#prayer button a{
+    text-decoration: none;
+    color: white;
+   font-size: 17px;
+}
+#prayer button{
+    background-color: #17153B;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+#prayer button:hover{
+    background-color: white;
+    color: #17153B;
+    border: 1px solid #17153B;
+    transition-delay: 0.1s;
+    transition-behavior: smooth;
+}
+#prayer button:hover a{
+    color: #17153B;
+}
+
+
+.now{
+    text-align: center;
+    background-color: #17153B;
+    padding: 100px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(18, 17, 17, 0.699),
+        rgba(20, 19, 19, 0.73)
+    ),
+  url('./img/yannis-h-uaPaEM7MiQQ-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#now h2{
+   
+    color: white;
+    padding-bottom: 10px;
+    word-break: keep-all;
+    font-size: 35px;
+}
+#now p{
+    color: white;
+    padding-bottom: 10px;
+    word-wrap: wrap;
+}
+#now button a{
+    text-decoration: none;
+    color: white;
+   font-size: 17px;
+}
+#now button{
+    background-color: #17153B;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+#now button:hover{
+    background-color: white;
+    color: #17153B;
+    border: 1px solid #17153B;
+    transition-delay: 0.1s;
+    transition-behavior: smooth;
+}
+#now button:hover a{
+    color: #17153B;
+}
+footer{
+    background-color: #17153B;
+}
+.footer{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+.footer h3{
+    color: white;
+    padding-bottom: 10px;
+}
+.footer p{
+    line-height: 25px;
+    color: white;
+}
+#email{
+    color: #F9E400;
+}
+.footer .icons{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+}
+.footer span i{
+ color: #17153B;
+ background-color: white;
+ padding:7px;
+ border-radius: 5px;
+ font-size: 20px;
+}
+#profile{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+#profile a{
+    text-decoration: none;
+    color: #F9E400;
+}
+
+
+
+@media screen and (max-width:674px){
+    .icon span i{
+        font-size: 40px;
+    }
+    .head h1{
+        font-size: 25px;
+    }
+    .head{
+        flex-direction: column;
+    }
+    .header nav{
+        flex-direction: column;
+    }
+    .navBar{
+        display: none;
+    }
+    header{
+        display:flex ;
+        justify-content: space-between;
+        padding: 10px;
+    }
+  
+    .heroPage{
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%,50%);
+        text-align: center;
+        
+    }
+   
+    .header{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
+    .header nav{
+        flex-direction: column;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    .open{
+        display: block; 
+    }
+    .footer{
+        flex-direction: column;
+    }
+     main h2{
+        font-size: 5px;
+        font-family: "Roboto", sans-serif;
+        word-wrap: none;
+     }
+     #abtUs h2{
+        font-size: 23px;
+     }
+     #now h2{
+        font-size: 23px;
+     }
+     #prayer h2, #worship h2{
+        font-size: 23px;
+     }
+     .connect{
+        padding-bottom: 20px;
+     }
+     .serviceTimes{
+        padding-bottom: 20px;
+     }
+
+}
