@@ -17,6 +17,7 @@ header{
     color: white;
     font-size: 30px;
     display:none ;
+    padding-top:10px;
 }
 .head{
     display: flex;
@@ -332,7 +333,7 @@ footer{
         display:flex ;
         justify-content: space-between;
         padding: 10px;
-        align-items: center;
+        
     }
   
     .heroPage{
